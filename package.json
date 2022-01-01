@@ -1,0 +1,24 @@
+{
+  "name": "boiler-plate",
+  "version": "1.0.0",
+  "description": "ljm-boiler-plate",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/limjungmin89/boiler-plate.git"
+  },
+  "author": "ljm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/limjungmin89/boiler-plate/issues"
+  },
+  "homepage": "https://github.com/limjungmin89/boiler-plate#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.1.4"
+  }
+}
