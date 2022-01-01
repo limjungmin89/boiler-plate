@@ -1,4 +1,5 @@
 # boiler-plate
+nodejs, expressjs, mongodb
 
 ### nodejs 설치, npm init으로 create
 npm init
@@ -7,14 +8,12 @@ npm init
 npm install express --save
 
 ### index.js 파일 수정
-const express = require('express')
-const app = express()
-const port = 5000
 
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
+### 몽고DB 생성
 
-app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`)
-})
+### 몽구스 설치
+npm install mongoose --save
+몽구스를 사용하여 mongodb에 connect
+
+### 몽고DB 스키마 생성
+User.js
