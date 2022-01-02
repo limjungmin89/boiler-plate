@@ -24,3 +24,8 @@ npm install body-parser --save
 ### nodemon 을 이용하여 변경된 소스를 서버에 바로 반영
 npm install nodemon --save-dev
 package.json - scripts 추가 "start-nodemon": "nodemon index.js"
+
+### password 정보 config 로 이동
+
+### 비밀번호 암호화 bcrypt 사용
+npm install bcrypt --save
