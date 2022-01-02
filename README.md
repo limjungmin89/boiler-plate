@@ -17,3 +17,10 @@ npm install mongoose --save
 
 ### 몽고DB 스키마 생성
 User.js
+
+### bodyParser 를 사용하여 requestBody 를 받는다
+npm install body-parser --save
+
+### nodemon 을 이용하여 변경된 소스를 서버에 바로 반영
+npm install nodemon --save-dev
+package.json - scripts 추가 "start-nodemon": "nodemon index.js"
